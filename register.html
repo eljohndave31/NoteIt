@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=d-wievicedth, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <header class="header">
+        <h1><span class="hnote">Note</span><span class="it">It<span class="exclamation">!</span></span></h1>
+
+         <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-x' id="close-icon"></i>
+        </label>
+
+        <nav class="navbar">
+            <a href="home.html" style="--i:0;">HOME</a>
+            <a href="register.html" class="active" style="--i:0;">REGISTER</a>
+            <a href="signin.html" style="--i:0;">SIGN IN</a>
+
+        </nav>
+    </header>
+    <div class="wrapper">
+        <form action="">
+            <h1><span class="sign">Sign</span><span class="up">Up</span></h1>
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="Full name" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Username" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+            </div>
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="email" placeholder="Email" required>
+                    <i class='bx bxl-gmail'></i>
+                </div>
+                <div class="input-field">
+                    <input type="number" placeholder="Phone number" required>
+                    <i class='bx bxs-phone' ></i>
+                </div>
+            </div>
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="password" placeholder="Password" required>
+                    <i class='bx bxs-lock-alt' ></i>
+
+                </div>
+                <div class="input-field">
+                    <input type="password" placeholder="Confirm Password" required>
+                    <i class='bx bxs-lock-alt' ></i>
+
+                </div>
+             
+
+                <button type="button" class="registerbtn" onclick="location.href='signin.html'">SIGN UP</button>
+
+            
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
